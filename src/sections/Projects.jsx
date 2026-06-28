@@ -73,6 +73,7 @@ function ProjectCard({ project, isDark, index }) {
           <a
             href={project.live}
             className="btn-primary text-xs py-2 px-4 flex-1 justify-center"
+            target="_blank"
           >
             <ExternalLink size={13} />
             Live Demo

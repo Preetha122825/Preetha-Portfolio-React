@@ -10,16 +10,16 @@ const journey = [
   },
   {
     year: '2023',
-    event: 'First Web Projects & Certifications',
-    detail: 'Completed Python Programming, Data Structures certifications. Built first web applications using HTML, CSS, and JavaScript.',
+    event: 'Certifications',
+    detail: 'Completed Python Programming, Data Structures certifications.',
     icon: '🏆',
   },
-  {
-    year: '2024',
-    event: 'React, Node.js & SEO Mastery',
-    detail: 'Learned React.js, Node.js, and full-stack development. Earned Front-End Development and SEO Fundamentals certifications.',
-    icon: '⚡',
-  },
+  // {
+  //   year: '2024',
+  //   event: 'React, Node.js & SEO Mastery',
+  //   detail: 'Learned React.js, Node.js, and full-stack development. Earned Front-End Development and SEO Fundamentals certifications.',
+  //   icon: '⚡',
+  // },
   {
     year: '2024',
     event: 'Web Development Internship',
@@ -38,6 +38,11 @@ const journey = [
     detail: 'Completing degree and launching professional career as Web Designer, Developer, and SEO Analyst.',
     icon: '🌟',
   },
+  {
+    year:'2026',
+    event: 'Web designer and developer Internship',
+    detail: 'Started my professional career as an intern, where I learned web development, web design, WordPress, and SEO optimization while working on real-world projects.'
+  }
 ]
 
 export default function Education({ isDark }) {
@@ -83,7 +88,7 @@ export default function Education({ isDark }) {
                 </span>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
-                {['Web Technologies', 'Software Engineering', 'Data Structures', 'Algorithms', 'Database Systems', 'Computer Networks'].map(tag => (
+                {['Web Technologies', 'Software Engineering', 'Data Structures', 'Algorithms', 'Database Systems'].map(tag => (
                   <span key={tag} className={`px-3 py-1 rounded-lg text-xs font-medium ${
                     isDark ? 'bg-white/5 text-slate-300 border border-white/10' : 'bg-slate-50 text-slate-600 border border-slate-200'
                   }`}>

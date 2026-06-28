@@ -156,7 +156,7 @@ export default function Hero({ isDark }) {
   className="w-full h-full object-cover object-center"
 /></span>
                   <span className={`text-sm mt-2 font-medium ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
-                    Profile Photo
+                    Preetha K
                   </span>
                 </div>
               </div>

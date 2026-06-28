@@ -20,17 +20,18 @@ export const stats = [
 ]
 
 export const skillCategories = [
-  {
-    category: 'Web Design',
-    icon: '🎨',
-    color: 'from-pink-500 to-rose-500',
-    skills: ['UI/UX Design', 'Responsive Design', 'Figma', 'Wireframing', 'Website Layout Design'],
-  },
+ 
   {
     category: 'Frontend Development',
     icon: '💻',
     color: 'from-blue-500 to-cyan-500',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Bootstrap', 'Tailwind CSS'],
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Bootstrap'],
+  },
+  {
+    category: 'Web Design',
+    icon: '🎨',
+    color: 'from-pink-500 to-rose-500',
+    skills: ['UI/UX Design', 'Responsive Design', 'Figma', 'Website Layout Design'],
   },
   {
     category: 'Backend Development',
@@ -56,6 +57,12 @@ export const skillCategories = [
     color: 'from-indigo-500 to-blue-500',
     skills: ['JavaScript', 'Python', 'Java'],
   },
+  {
+    category: 'Tools',
+    icon: '🛠️',
+    color: 'from-pink-500 to-rose-500',
+    skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'WordPress', 'Vercel','Figma', 'Adobe Express'],
+  },
 ]
 
 export const projects = [
@@ -73,6 +80,18 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'Dentalium Seashells WordPress Website',
+    description: 'A custom WordPress eCommerce website developed for a Dentalium Seashells business, featuring product catalog management, responsive design, SEO optimization, secure inquiry functionality, and a user-friendly shopping experience.',
+    image: null,
+    gradient: 'from-blue-600 to-teal-500',
+    emoji: '🐚',
+    tags: ['WordPress', 'WooCommerce', 'Elementor', 'PHP'],
+    highlights: ['Custom WordPress Development', 'WooCommerce Integration','SEO Optimized','Responsive Design'],
+    live: 'https://dentaliumseashells.com/',
+    demo: '#',
+  },
+  {
+    id: 3,
     title: 'Shipment Management System',
     description: 'A full-stack logistics management platform to handle sender/receiver details, track shipments in real-time, and manage delivery workflows with a clean dashboard interface.',
     image: null,
@@ -84,7 +103,7 @@ export const projects = [
     demo: '#',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Personal Portfolio Website',
     description: 'A premium personal portfolio built with React and Tailwind CSS, featuring dark/light mode toggle, smooth Framer Motion animations, and performance-optimized assets.',
     image: null,
@@ -92,11 +111,11 @@ export const projects = [
     emoji: '🌐',
     tags: ['React', 'Tailwind CSS', 'Framer Motion'],
     highlights: ['Dark/Light Mode', 'Responsive Layout', 'Performance Optimized', 'Modern Design'],
-    live: '#',
-    demo: '#',
+    live: 'https://www.preethaportfolio.online/',
+    
   },
   {
-    id: 4,
+    id: 5,
     title: 'SEO Website Optimization',
     description: 'Comprehensive SEO audit and optimization project improving website rankings through keyword strategy, page speed enhancements, meta optimization, and Google Search Console integration.',
     image: null,
@@ -111,60 +130,70 @@ export const projects = [
 
 export const certifications = [
   {
-    title: 'Web Development Internship',
-    issuer: 'Tech Company',
-    date: '2024',
+    title: 'Web Designer and Development Internship',
+    issuer: 'Schoenen Dis LLP, Nagercoil',
+    date: '2026',
     icon: '💼',
     color: 'from-blue-500 to-cyan-400',
     description: 'Hands-on internship developing real-world web applications using modern technologies.',
   },
   {
-    title: 'Front-End Development Certification',
-    issuer: 'Online Platform',
-    date: '2024',
+    title: 'Full Stack Certification',
+    issuer: 'FemtoSoft Technologies, Chennai',
+    date: '2025',
     icon: '🎖️',
     color: 'from-violet-500 to-purple-400',
-    description: 'Certified in HTML, CSS, JavaScript, and React for building responsive web interfaces.',
-  },
-  {
-    title: 'SEO Fundamentals Certification',
-    issuer: 'Google / SEMrush',
-    date: '2023',
-    icon: '🔍',
-    color: 'from-orange-500 to-amber-400',
-    description: 'Certified in on-page SEO, technical SEO, keyword research, and analytics.',
+    description: 'Hands-on experience focused on Front-End development.',
   },
   {
     title: 'Python Programming Certification',
     issuer: 'Online Platform',
-    date: '2023',
+    date: '2025',
     icon: '🐍',
     color: 'from-green-500 to-emerald-400',
     description: 'Proficient in Python programming, data structures, and scripting.',
   },
   {
+    title: 'Web Development Certification',
+    issuer: 'CodeBind Technologies, Coimbatore',
+    date: '2024',
+    icon: '🎖️',
+    color: 'from-violet-500 to-purple-400',
+    description: 'Certified in HTML, CSS, JavaScript, and React for building responsive web interfaces.',
+  },
+  // {
+  //   title: 'SEO Fundamentals Certification',
+  //   issuer: 'Google / SEMrush',
+  //   date: '2023',
+  //   icon: '🔍',
+  //   color: 'from-orange-500 to-amber-400',
+  //   description: 'Certified in on-page SEO, technical SEO, keyword research, and analytics.',
+  // },
+  
+  {
     title: 'Data Structures Certification',
-    issuer: 'Online Platform',
+    issuer: 'Silicon Software Services',
     date: '2023',
     icon: '📊',
     color: 'from-pink-500 to-rose-400',
-    description: 'Completed advanced data structures and algorithm course with hands-on projects.',
+    description: 'Completed insternship program on data structures and python programming.',
   },
 ]
 
 export const services = [
-  {
-    icon: '🎨',
-    title: 'Web Design',
-    color: 'from-pink-500 to-rose-500',
-    items: ['Modern UI/UX Design', 'Responsive Website Design', 'Landing Page Design', 'Wireframing & Prototyping'],
-  },
-  {
+   {
     icon: '💻',
     title: 'Web Development',
     color: 'from-blue-500 to-cyan-500',
     items: ['Business Websites', 'Portfolio Websites', 'React Applications', 'Custom Web Solutions'],
   },
+  {
+    icon: '🎨',
+    title: 'Web Design',
+    color: 'from-pink-500 to-rose-500',
+    items: ['Modern UI/UX Design', 'Responsive Website Design', 'Landing Page Design'],
+  },
+ 
   {
     icon: '🔍',
     title: 'SEO Services',
@@ -175,10 +204,10 @@ export const services = [
 
 export const education = [
   {
-    year: '2022 – 2026',
+    year: '2021 – 2025',
     degree: 'Bachelor of Engineering',
     field: 'Computer Science and Engineering',
-    institution: 'University / College Name',
+    institution: 'Anna University / Arunachala College of Engineering for Women, Manavilai',
     description: 'Specializing in Web Technologies, Software Engineering, and Data Structures. Pursuing projects in full-stack development and SEO optimization.',
     achievements: ['Consistent Academic Performance', 'Technical Project Leadership', 'Web Development Club Member'],
   },
